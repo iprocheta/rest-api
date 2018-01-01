@@ -42,7 +42,7 @@ def HeartAttackCal(name):
 
 
 
-    x_Data_frame = Ami_data.iloc[:,1:39]
+    x_Data_frame = Ami_data.iloc[:,1:40]
     x_data = Ami_data[list(x_Data_frame)].values
 
     y_Data_frame = Ami_data.iloc[:,40:43]
