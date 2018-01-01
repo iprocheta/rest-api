@@ -35,7 +35,7 @@ def HeartAttackCal(name):
     Ami_data = Ami_data.sample(frac=1).reset_index(drop=True)
     Ami_data.head(5)
 
-    features = Ami_data.columns[1:40]
+    features = Ami_data.columns[1:39]
     #length = Ami_data.shape[0]
 
     input_Data = pd.DataFrame(input_String,columns = features);
